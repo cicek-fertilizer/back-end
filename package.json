@@ -1,0 +1,22 @@
+{
+  "name": "fertilizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=prod node server.js",
+    "dev": "NODE_ENV=prod nodemon server.js",
+    "test": "NODE_ENV=dev nodemon server.js"
+  },
+  "author": "Berkay Barlas",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "swagger-editor": "^3.6.25"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14",
+    "swagger-ui-express": "^4.0.1"
+  }
+}
